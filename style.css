@@ -1,0 +1,229 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 47px;
+    min-width: 700px;
+    align-items: center;
+    font-size: 16px;
+}
+
+#menu ul {
+    min-width: 615px;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    /* display: inline-block; */
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    transition: background .3s;
+}
+
+#menu ul li a:hover {
+    background-color: #006050;
+}
+
+main{
+    margin: 20px 20px;
+}
+
+.bg-color{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(https://static8.depositphotos.com/1020341/854/i/600/depositphotos_8546130-stock-photo-black-and-white-stripes.jpg);
+}
+
+.bordas{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+#solida{
+    width:230px;
+    height: 230px;
+    border:solid;
+    background-color: aqua;
+}
+
+#transp{
+    width:230px;
+    height: 230px;
+    border:solid;
+    background-color:rgba(0, 255, 255, 0.411)
+}
+
+#gradiente{
+    width:230px;
+    height: 230px;
+    border:solid;
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+
+#img-unica{
+    width:230px;
+    height: 230px;
+    border:solid;
+    background-image: url(./assets/cafezinho.jfif);
+    background-repeat: no-repeat;
+}
+
+#img-repetida{
+    width:600px;
+    height: 600px;
+    border:solid;
+    background-image: url(./assets/cafezinho.jfif);
+    background-repeat: repeat;
+    
+}
+
+#sem-borda{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-style:none;
+}
+
+#escondida{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-style: hidden;
+}
+
+#pontilhada{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-style: dotted;
+}
+
+#tracejada{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-style: dashed;
+}
+
+#dupla{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-style: double;
+}
+
+#ranhura{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-style:groove;
+}
+
+#estriada{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-style: ridge;
+}
+
+#inset_3d{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-style: inset
+}
+
+#outset_3d{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-style: outset;
+}
+
+#laranja{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-style:solid;
+    border-color: orange;
+}
+
+#vermelha{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-style:solid;
+    border-color: red;
+}
+
+#grossa{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-style:solid;
+    border-width: 6px;
+}
+
+#fininha{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-style:solid;
+    border-width: 1px;
+}
+
+#arredondada{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-style:solid;
+    border-radius: 15px;
+}
+
+#redonda{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-style:solid;
+    border-radius: 50%;
+}
+
+.circle {
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: rgb(197, 26, 26) 0.5em 0.5em 0.3em 
+  }
+  
+  .circle img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+
+
